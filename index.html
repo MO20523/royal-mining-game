@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal Mining Game</title>
+</head>
+<body>
+    <h1>🦍 Royal Mining Game</h1>
+    <p id="balance">رصيدك: 0 $RAP</p>
+    <button onclick="mine()">⛏️ تعدين الآن</button>
+    <script>
+        let balance = 0;
+        function mine() {
+            balance += 1;
+            document.getElementById("balance").innerText = "رصيدك: " + balance + " $RAP";
+        }
+    </script>
+</body>
+</html>
